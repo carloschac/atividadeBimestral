@@ -1,0 +1,53 @@
+/*========= Estrutura ========== */
+.container {
+  position: relative;
+  max-width: 1128px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 36px;
+  margin-top: 36px;
+}
+
+.cabecalho {
+  position: ;
+}
+
+ul {
+  display: inline-block;
+  justify-content: space-between;
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+a {
+  margin: 0px;
+}
+
+.topicos {
+  padding: 20px;
+  color: white;
+}
+
+.foto {
+}
+
+/*========== Design ==========*/
+.clearfix {
+  *zoom: 1;
+}
