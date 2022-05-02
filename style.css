@@ -1,53 +1,112 @@
-/*========= Estrutura ========== */
-.container {
-  position: relative;
+* {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.div container {
   max-width: 1128px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-header {
-  width: 100%;
-  height: 48px;
-  margin-bottom: 36px;
-  margin-top: 36px;
-}
-
-.cabecalho {
-  width: 100%;
-}
-
-ul {
-  display: inline-block;
-  justify-content: space-between;
-}
 body {
+  padding: 0 auto;
   font-family: 'DM Sans', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Poppins', sans-serif;
-  color: white;
+  color: black;
+  background-color: blueviolet;
+}
+
+header {
   background-color: black;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid blueviolet;
 }
 
-p,
-h1,
-h2,
-a {
-  margin: 0px;
-}
-
-.topicos {
-  padding: 20px;
+.h2header {
   color: white;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+
+
+.redes {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.redes li {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	margin: 0 1.5%;  /  espaçamento externo /
+	padding: 20px 20px;
+	box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 10px;  / deixa a borda arredondada /
+ 
+}
+
+#github {
+  width: 100px;
+}
+
+#linkedin {
+  width: 100px;
+}
+
+.h2class {
+  text-align: center;
+  color: black;
+  
+}
+
+.assunto {
+  text-align: center;
 }
 
 .foto {
+  width: 150px;
+  text-align: center;
+  
 }
 
-/*========== Design ==========*/
-.clearfix {
-  *zoom: 1;
+.icon {
+  width: 150px;
+
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.topics {
+  padding-top: 20px;
+}
+.aheader {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  color: black ;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  font-weight: bold;
 }

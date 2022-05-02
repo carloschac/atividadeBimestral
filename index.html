@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,81 +12,99 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
     <title>Projeto bimestral</title>
   </head>
   <body>
+    <header>
+      <h2 class="h2header">Carlos Henrique</h2>
+      <nav class="container clearfix">
+        <ul>
+          <li><a class="aheader" href="#redes">Redes Sociais</a></li>
+          <li><a class="aheader" href="#sobremim">Sobre mim</a></li>
+          <li><a class="aheader" href="#meusconhecimentos">Conhecimentos</a></li>
+          <li><a class="aheader" href="#hobbies">Hobbies</a></li>
+          <li><a class="aheader" href="#projetos">Projetos</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="container clearfix">
-      <header>
-        <div class="cabecalho">
-          <p>CARLOSCODE</p>
-          <ul class="ul">
-            <li><p>Item 1</p></li>
-            <li>Item</li>
-            <li>Item</li>
-            <li>Item</li>
-            <li>Item</li>
-          </ul>
-        </div>
-      </header>
-      <section class="main">
-        <article class="topicos">
-          <div class="sobreMim">
-            <h2 class="subTitulo">Sobre mim</h2>
-            <p class="pEu">
-              Eu sou o Carlos, Dev. Front-End iniciante, estou estudando para me
-              aprimorar cada vez mais.
-            </p>
-          </div>
-        </article>
-        <article class="topicos">
-          <div class="assunto">
-            <h2 class="subTitulo">Redes Sociais</h2>
-            <div class="redes">
-              <p class="linkedin">Linkedin</p>
+      <main>
+        <section>
+          <article class="topics">
+            <h2 class="h2class"><a name="redes"></a>Redes Sociais</h2>
+            <ul class="redes">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/carlos-henrique-a55281219/"
+                  target="_blank"
+                >
+                  <img id="linkedin" src="assets/linkedin.svg" alt="Linkedin" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/carloschac/Desenvolvimento-Web"
+                  target="_blank"
+                >
+                  <img id="github" src="assets/github.svg" alt="Github" />
+                </a>
+              </li>
+            </ul>
+          </article>
 
-              <p class="github">Github</p>
+          <article class="topics">
+            <div class="assunto">
+              
+              <h2 class="h2class"><a name="sobremim"></a>Sobre mim</h2>
+              <img src="img/fotoPerfil.jfif" alt="" class="foto" />
+              <p>
+                Eu sou o Carlos,Dev. Front-End iniciante e Analista de Sistemas
+                Jr, e estou estudando para me aprimorar cada vez mais
+              </p>
             </div>
-          </div>
-        </article>
-        <article class="topicos">
-          <h2 class="subTitulo">Minhas linguagens favoritas</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero nam
-            et aut atque sunt, corrupti earum enim quam consequatur totam
-            aspernatur alias qui ipsa soluta unde doloribus est sed fugit!
-          </p>
-        </article>
+          </article>
 
-        <article class="topicos">
-          <div class="assunto">
-            <h2 class="subTitulo">Coisas que gosto de fazer</h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi at
-              eveniet saepe consequatur doloribus placeat facere, quo possimus
-              assumenda reiciendis animi quisquam quam atque cumque, nemo
-              recusandae exercitationem iure veritatis?
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Perferendis delectus quasi dolores sed! Nulla commodi
-              exercitationem optio rerum voluptatibus eius obcaecati, iure
-              officia velit odio dicta odit cum cupiditate omnis.
-            </p>
-          </div>
-        </article>
-        <article class="topicos">
-          <div class="assunto">
-            <h2 class="subTitulo">Currículo e objetivos</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              autem iste quos tenetur culpa ducimus! Voluptas illum, qui dolor
-              sapiente obcaecati nam repellat. Minus animi placeat molestias
-              illo quas corporis.
-            </p>
-          </div>
-        </article>
-      </section>
+          <article class="topics">
+            <div class="assunto">
+              <h2 class="h2class"><a name="meusconhecimentos">Meus conhecimentos</h2>
+              <ul>
+                <li>
+                  <img class="icon" src="assets/css.svg" alt="Icon CSS" />
+                </li>
+                <li>
+                  <img src="assets/htmll.svg" alt="Icon HTML" class="icon" />
+                </li>
+                <li>
+                  <img src="assets/javascript.svg" alt="Icon JS" class="icon" />
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="topics">
+            <div class="assunto">
+              <h2 class="h2class"><a name="hobbies">Coisas que gosto</h2>
+              <p>
+                Eu geralmente gosto de desperdiçar meu tempo saindo pra lugares
+                bem duvidosos, mas o que eu mais faço é, Jogar e Ouvir música,
+                aos poucos estou incluindo a programação na minha rotina
+              </p>
+            </div>
+          </article>
+
+          <article class="topics">
+            <div class="assunto">
+              <h2 class="h2class"><a name="projetos">Projetos e Objetivos</h2>
+              <p>
+                Atualmente estou no Grupo Servopa atuando como Analista Jr, e
+                estou trabalhando na implementação do novo Sistema, o
+                Smartshare, meu objetivo é futuramente me tornar um Dev. Full
+                stack.
+              </p>
+            </div>
+          </article>
+        </section>
+      </main>
     </div>
     <footer>
       <p>Atividade Bimestral Desenvolvimento-Web. Carlos Henrique 2022</p>
