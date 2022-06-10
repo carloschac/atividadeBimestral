@@ -1,0 +1,11 @@
+.header-img1 {
+  object-fit: cover;
+  object-position: 0 20%;
+  height: 600px;
+}
+
+.header-img2 {
+  object-fit: cover;
+  object-position: 0 100%;
+  height: 600px;
+}
