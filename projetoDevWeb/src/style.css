@@ -5,7 +5,16 @@ body {
 }
 
 .special-color {
-  color: darkred !important;
+  color: #bbb287 !important;
+}
+
+.special-colorNav {
+  color: #bbb287 !important;
+  font-weight: 2000;
+}
+
+.coffeee {
+  color: rgba(80, 117, 0, 0.97);
 }
 
 .tittle-color {
